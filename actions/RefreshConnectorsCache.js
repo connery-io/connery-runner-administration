@@ -1,8 +1,8 @@
 const axios = require("axios");
 
 module.exports = {
-  key: "RefreshConnectors",
-  title: "Refresh connectors on the runner",
+  key: "RefreshConnectorsCache",
+  title: "Refresh connectors cache on the runner",
   description: "Clean the connectors cache on the runner and then download all the connectors again.",
   type: "delete",
   inputParameters: [],

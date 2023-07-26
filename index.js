@@ -1,4 +1,4 @@
-const RefreshConnectors = require("./actions/RefreshConnectors.js");
+const RefreshConnectors = require("./actions/RefreshConnectorsCache.js");
 
 module.exports = {
     title: 'Connery Runner Administration',
