@@ -1,0 +1,19 @@
+{
+  "name": "connery-runner-administration",
+  "description": "Connery Runner Administration connector for Connery",
+  "license": "MIT",
+  "author": {
+    "name": "Connery",
+    "email": "contact@connery.io"
+  },
+  "dependencies": {
+    "axios": "^1.4.0"
+  },
+  "devDependencies": {
+    "connery": "*",
+    "jest": "^29.6.1"
+  },
+  "scripts": {
+    "build": "jest --passWithNoTests && connery validate && connery build"
+  }
+}
