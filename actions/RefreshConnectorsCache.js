@@ -14,7 +14,7 @@ module.exports = {
 };
 
 async function handler({ configurationParameters }) {
-  await axios.get(`${configurationParameters.RunenrUrl}/runner/tools/connectors/refresh`, {
+  await axios.get(`${configurationParameters.RunenrUrl}/runner/tools/refresh-connectors-cache`, {
     headers: {
       "x-api-key": configurationParameters.RunnerApiKey,
     },
