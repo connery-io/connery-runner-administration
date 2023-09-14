@@ -2,6 +2,8 @@
 
 This connector provides actions to manage the Connery Runner service.
 
+## Available actions
+
 | Action                                                                       | Description                                                                          |
 | ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
 | [Refresh connectors cache on the runner](/actions/RefreshConnectorsCache.js) | Clean the connectors cache on the runner and then download all the connectors again. |
