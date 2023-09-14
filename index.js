@@ -2,7 +2,7 @@ const RefreshConnectors = require("./actions/RefreshConnectorsCache.js");
 
 module.exports = {
     title: 'Connery Runner Administration',
-    description: 'Connery Runner Administration connector for Connery',
+    description: 'This connector provides actions to manage the Connery Runner service.',
     actions: [
         RefreshConnectors
     ],
