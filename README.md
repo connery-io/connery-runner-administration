@@ -4,33 +4,33 @@ This connector provides actions to manage the Connery Runner service.
 
 ## Available actions
 
-| Action                                                                       | Description                                                                          |
-| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Refresh connectors cache on the runner](/actions/RefreshConnectorsCache.js) | Clean the connectors cache on the runner and then download all the connectors again. |
+| Action                                                     | Description                                                                   |
+| ---------------------------------------------------------- | ----------------------------------------------------------------------------- |
+| [Refresh plugin cache](/src/actions/refreshPluginCache.ts) | Clean the plugin cache on the runner and then download all the plugins again. |
 
 ## Repository structure
 
-The entry point for this connector is the `./index.js` file.
-It contains the connector definition and references to all the actions.
+The entry point for this plugin is the [./src/index.ts](/src/index.ts) file.
+It contains the plugin definition and references to all the actions.
 
-The `./actions/` folder contains all the actions this connector defines.
+The [./src/actions/](/src/actions/) folder contains all the actions this plugin defines.
 Every action is represented by a separate file with the action definition and implementation.
 
-The `./dist/connector.js` file is the compiled version of the connector with all the dependencies.
-Connery Runner uses this file to run the connector.
+The [./dist/plugin.js](/dist/plugin.js) file is the bundled version of the plugin with all the dependencies.
+Connery Platform uses this file to run the plugin.
 
 ## Connery
 
-This repository is a [Connery](https://connery.io) connector.
+This repository is a plugin for [Connery](https://connery.io).
 
-Connery is an open-source connector ecosystem for AI and No-Code.
+Connery is an open-source plugin ecosystem for AI and No-Code.
 
 Learn more about Connery:
 
 - [Documentation](https://docs.connery.io)
-- [Source code](https://github.com/connery-io/connery)
-- [A quick guide on how to start using this connector with Connery](https://docs.connery.io/docs/quick-start)
+- [Source code](https://github.com/connery-io/connery-platform)
+- [How to start using this plugin with Connery?](https://docs.connery.io/docs/platform/quick-start/)
 
 ## Support
 
-If you have any questions or need help with this connector, please create an issue in this repository.
+If you have any questions or need help with this plugin, please create an issue in this repository.
