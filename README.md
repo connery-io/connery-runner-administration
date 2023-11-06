@@ -1,6 +1,6 @@
 # Connery Runner Administration
 
-This connector provides actions to manage the Connery Runner service.
+This plugin provides actions to admin the Connery Runner.
 
 ## Available actions
 

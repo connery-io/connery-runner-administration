@@ -3,7 +3,7 @@ import refreshPluginCache from './actions/refreshPluginCache';
 
 const plugin: PluginDefinition = {
   title: 'Connery Runner Administration',
-  description: 'This connector provides actions to manage the Connery Runner service.',
+  description: 'This plugin provides actions to admin the Connery Runner.',
   actions: [refreshPluginCache],
   configurationParameters: [
     {
